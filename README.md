@@ -38,15 +38,20 @@ After RandomOverSampler
 Resampled dataset 
 Yes: 422, No: 422
 
-### Principal Component Analysis
+#### Principal Component Analysis
 After applying pca to the resampled data to reduce dimensions we found that 11 components explain the variability in the data.
 
-### Model Evaluation
+#### Model Evaluation
 -Random Forest
+
 -Logistic Regression
+
 -K- Nearest Neighbors
+
 -Naïve Bayes
+
 -SVM
+
 
 Model Selection
 Random forest has the best results for our problem. Random Forest has the best accuracy and lowest false negative rate and also lowest false positive rate.Hence we’ll choose Random Forest.
